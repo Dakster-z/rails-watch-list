@@ -1,0 +1,11 @@
+<header>
+    <h1>WatchList Creator</h1>
+</header>
+<main>
+    <h2>Movie Lists</h2>
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= list.title %></li>
+  <% end %>
+</ul>
+</main>
